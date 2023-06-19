@@ -51,3 +51,4 @@ json_object = json.dumps(csvRows, indent=4)
 
 with open(projectsCsvFile, 'w') as projectsCsvFileObject:
     projectsCsvFileObject.write(json_object)
+    projectsCsvFileObject.write("test01")
